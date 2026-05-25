@@ -146,7 +146,7 @@ with col_t:
         sinais eletromiográficos (EMG) para detetar a intenção de movimento do utilizador e fornecer
         assistência apenas quando necessária, tornando a reabilitação mais personalizada, segura e eficaz.</p>
         <p>A sua principal inovação é o <strong>controlo subMVC</strong>: ao contrário das soluções existentes,
-        não obriga o paciente a executar contrações musculares máximas, usando um limiar confortável e individual,
+        não obriga o paciente a executar contrações musculares máximas, usando um limite confortável e individual,
         reduzindo o risco de lesão e fadiga muscular.</p>
         <p>Através da tecnologia <strong>Assist-As-Needed</strong>, o exoesqueleto só apoia o movimento quando
         o paciente realmente precisa, estimulando o esforço ativo e acelerando a recuperação neuromotora.</p>
@@ -204,7 +204,7 @@ st.markdown("""
             <tr><td><strong>Interfaces Cérebro-Máquina</strong></td><td>Captam sinais cerebrais para controlar dispositivos externos</td><td><span class="lim">Invasivo e de custo muito elevado</span></td></tr>
             <tr><td><strong>Exoesqueletos EMG convencionais</strong></td><td>Leem sinais EMG do paciente para controlar o exoesqueleto</td><td><span class="lim">Exigem contração máxima (MVC) — inacessível a muitos pacientes</span></td></tr>
             <tr><td><strong>Controlo de impedância</strong></td><td>Medem força do braço e torques para gerar movimento assistido</td><td><span class="lim">Requerem força mecânica detetável</span></td></tr>
-            <tr class="hl"><td>✦ ReMotion (subMVC)</td><td>Controlo EMG com limiar subMVC + Assist-As-Needed + Deteção de fadiga</td><td style="color:#4dffa0;">✓ Acessível, seguro, uso domiciliário</td></tr>
+            <tr class="hl"><td>✦ ReMotion (subMVC)</td><td>Controlo EMG com limite subMVC + Assist-As-Needed + Deteção de fadiga</td><td style="color:#4dffa0;">✓ Acessível, seguro, uso domiciliário</td></tr>
         </tbody>
     </table>
 </div>
@@ -327,7 +327,7 @@ with v1:
     st.markdown("Algoritmos de IA para adaptação automática dos parâmetros de assistência com base na evolução clínica de cada paciente.")
     st.markdown("---")
     st.markdown("**2 · Personalização Automática**")
-    st.markdown("Calibração dinâmica do limiar subMVC em tempo real, sem necessidade de intervenção clínica constante.")
+    st.markdown("Calibração dinâmica do limite subMVC em tempo real, sem necessidade de intervenção clínica constante.")
 
 with v2:
     st.markdown("**3 · Expansão do Público-Alvo**")
