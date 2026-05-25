@@ -268,19 +268,19 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ── PREVISÃO FINANCEIRA ───────────────────────────────────────────────────────
 st.markdown("""
 <div class="section">
-    <div class="section-title">📊 Previsão Financeira (2027–2032)</div>
+    <div class="section-title">📊 Previsão Financeira (2026–2031)</div>
     <table class="comp-table">
-        <thead><tr><th>Métrica</th><th>2027</th><th>2028</th><th>2029</th><th>2030</th><th>2031</th><th>2032</th></tr></thead>
+        <thead><tr><th>Métrica</th><th>2026</th><th>2027</th><th>2028</th><th>2029</th><th>2030</th><th>2031</th></tr></thead>
         <tbody>
-            <tr><td><strong>Nº Vendas</strong></td><td>30</td><td>38</td><td>45</td><td>56</td><td>73</td><td>99</td></tr>
-            <tr><td><strong>Trabalhadores</strong></td><td>12</td><td>14</td><td>15</td><td>17</td><td>20</td><td>23</td></tr>
-            <tr><td><strong>Vendas (€)</strong></td><td>1 111 110</td><td>1 388 888</td><td>1 666 665</td><td>2 083 331</td><td>2 708 331</td><td>3 656 246</td></tr>
-            <tr><td><strong>Gastos (€)</strong></td><td>1 103 337</td><td>1 305 343</td><td>1 535 850</td><td>1 825 311</td><td>2 328 051</td><td>2 966 695</td></tr>
-            <tr class="hl"><td><strong>Lucros (€)</strong></td><td style="color:#ff9a9a;">-10 368</td><td>46 499</td><td>78 878</td><td>157 936</td><td>264 624</td><td>513 041</td></tr>
+            <tr><td><strong>Nº Vendas</strong></td><td>0</td><td>35</td><td>53</td><td>105</td><td>142</td><td>163</td></tr>
+            <tr><td><strong>Trabalhadores</strong></td><td>11</td><td>13</td><td>15</td><td>19</td><td>23</td><td>24</td></tr>
+            <tr><td><strong>Vendas (€)</strong></td><td>0</td><td>1 296 295</td><td>1 944 443</td><td>3 888 885</td><td>5 249 995</td><td>6 037 494</td></tr>
+            <tr><td><strong>Gastos (€)</strong></td><td>464 575</td><td>1 225 979</td><td>1 681 215</td><td>2 909 203</td><td>3 799 129</td><td>4 296 059</td></tr>
+            <tr class="hl"><td><strong>Lucros (€)</strong></td><td style="color:#ff9a9a;">-479 127</td><td>44 151</td><td>232 083</td><td>786 028</td><td>1111 666</td><td>1 349 024</td></tr>
         </tbody>
     </table>
     <p style="font-size:0.82rem;color:#4a7aaa;margin-top:1rem;margin-bottom:0;">
-        Projeção assume início de faturação em 2027, após certificação médica e entrada no mercado hospitalar.
+        Projeção assume fase de I&D e investimento estrutural em 2026, com início de faturação e vendas a partir de 2027.
     </p>
 </div>
 """, unsafe_allow_html=True)
