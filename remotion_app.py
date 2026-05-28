@@ -175,7 +175,7 @@ st.markdown("""
         <div class="feature-card">
             <div class="feature-icon">📡</div>
             <h4>Controlo através de sinal EMG com subMVC</h4>
-            <p>Deteta intenção de movimento a partir de sinais EMG residuais, sem exigir contração máxima. Acessível a pacientes com mobilidade muito reduzida.</p>
+            <p>Deteta intenção de movimento a partir de sinais EMG residuais. Ao contrário da tecnologia convencional, utilizamos um valor confortável de contração para a calibração, de modo a que o paciente não seja obrigado a esforçar-se demasiado, evitando lesões.</p>
         </div>
         <div class="feature-card">
             <div class="feature-icon">🤝</div>
