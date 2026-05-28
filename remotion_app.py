@@ -211,22 +211,25 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── PÚBLICO-ALVO ──────────────────────────────────────────────────────────────
-st.markdown('<div class="section"><div class="section-title">🎯 Quem e Como Pretendemos Ajudar</div></div>', unsafe_allow_html=True)
+st.markdown('<div class="section"><div class="section-title">🚀 Contextos de Aplicação do Exoesqueleto</div></div>', unsafe_allow_html=True)
 c1, c2, c3 = st.columns(3, gap="medium")
+
 with c1:
-    st.markdown("""<div class="target-card"><div class="target-emoji">🧠</div>
-    <h3>Pacientes pós-AVC</h3>
-    <p>Pessoas com perda de mobilidade nos membros superiores que ainda apresentem sinal EMG residual, tornando possível a deteção de intenção de movimento.</p>
-    </div>""", unsafe_allow_html=True)
-with c2:
     st.markdown("""<div class="target-card"><div class="target-emoji">🏥</div>
-    <h3>Centros de Reabilitação</h3>
-    <p>Clínicas, hospitais e centros de fisioterapia que procurem soluções tecnológicas modernas para complementar a fisioterapia convencional.</p>
+    <h3>Ambiente Clínico / Hospitais</h3>
+    <p>Integração em unidades de saúde para complementar as sessões tradicionais de fisioterapia, otimizando o tempo de intervenção dos terapeutas.</p>
     </div>""", unsafe_allow_html=True)
-with c3:
+
+with c2:
     st.markdown("""<div class="target-card"><div class="target-emoji">🏠</div>
-    <h3>Uso Domiciliário</h3>
-    <p>Pacientes que após alta hospitalar necessitem de treino contínuo em casa, com segurança garantida pelo sistema de deteção de fadiga.</p>
+    <h3>Uso Domiciliário Autónomo</h3>
+    <p>Aplicação em ambiente doméstico após a alta hospitalar, permitindo a continuidade do treino diário sem necessidade de supervisão clínica constante.</p>
+    </div>""", unsafe_allow_html=True)
+
+with c3:
+    st.markdown("""<div class="target-card"><div class="target-emoji">🌐</div>
+    <h3>Tele-reabilitação</h3>
+    <p>Uso em模式 (modalidades) de treino à distância, onde os dados de torque e fadiga guardados pelo sistema podem ser enviados para análise do médico.</p>
     </div>""", unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
