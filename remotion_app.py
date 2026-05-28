@@ -229,7 +229,7 @@ with c2:
 with c3:
     st.markdown("""<div class="target-card"><div class="target-emoji">🌐</div>
     <h3>Tele-reabilitação</h3>
-    <p>Uso em模式 (modalidades) de treino à distância, onde os dados de torque e fadiga guardados pelo sistema podem ser enviados para análise do médico.</p>
+    <p>Uso emfisioterapia à distância, onde os dados de torque e fadiga guardados pelo sistema podem ser enviados para análise do fisioterapeuta.</p>
     </div>""", unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
@@ -294,7 +294,7 @@ st.markdown('<div class="section"><div class="section-title">🗓️ Estado e Mi
 m1, m2, m3 = st.columns(3, gap="medium")
 
 with m1:
-    st.markdown("#### ▶ Agora → 2026")
+    st.markdown("#### 2 · Agora → 2026")
     st.info("""
 **Investigação & Desenvolvimento**
 - Investigação e desenvolvimento tecnológico
