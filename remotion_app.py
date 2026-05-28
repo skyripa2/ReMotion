@@ -170,22 +170,22 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ── TECNOLOGIA ────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="section">
-    <div class="section-title">⚙️ Tecnologia Diferenciadora</div>
+    <div class="section-title">⚙️ Tecnologia Inovadora</div>
     <div class="feature-grid">
         <div class="feature-card">
             <div class="feature-icon">📡</div>
-            <h4>Controlo por sinal EMG subMVC</h4>
+            <h4>Controlo através de sinal EMG com subMVC</h4>
             <p>Deteta intenção de movimento a partir de sinais EMG residuais, sem exigir contração máxima. Acessível a pacientes com mobilidade muito reduzida.</p>
         </div>
         <div class="feature-card">
             <div class="feature-icon">🤝</div>
             <h4>Assist-As-Needed</h4>
-            <p>O exoesqueleto apoia apenas quando o paciente não consegue completar o movimento sozinho, promovendo autonomia progressiva e neuroplasticidade.</p>
+            <p>O exoesqueleto apoia apenas quando o paciente não consegue completar o movimento sozinho. Utiliza o conceito de controlo por impedância de forma a criar uma "mola virtual" dinâmica através do software desenvolvido. Se o paciente conseguir cumprir o movimento sozinho, o robô permanece invisível e maleável. No entanto, se o braço não for capaz, o motor injeta automaticamente o torque exato para mover o membro</p>
         </div>
         <div class="feature-card">
             <div class="feature-icon">🔋</div>
             <h4>Deteção de Fadiga</h4>
-            <p>Monitoriza sinais de fadiga muscular, ajustando ou interrompendo a sessão para prevenir lesões, tornando o uso domiciliário seguro e autónomo.</p>
+            <p>Sempre que o utilizador exerce forças exigentes acima de um limite de conforto (30 Nm), o algoritmo calcula a acumulação de fadiga. Ao atingir um nível crítico de exaustão (75% de fadiga acumulada), o exoesqueleto assume progressivamente o controlo mecânico. Isto garante que o paciente treina na sua zona de máximo estímulo sem atingir a exaustão total, evitando lesões, dores ou posturas incorretas, e tornando o uso domiciliário seguro e autónomo.</p>
         </div>
     </div>
 </div>
