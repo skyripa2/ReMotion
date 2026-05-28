@@ -294,7 +294,7 @@ st.markdown('<div class="section"><div class="section-title">🗓️ Estado e Mi
 m1, m2, m3 = st.columns(3, gap="medium")
 
 with m1:
-    st.markdown("#### 2 · Agora → 2026")
+    st.markdown("#### 1 · Agora → 2026")
     st.info("""
 **Investigação & Desenvolvimento**
 - Investigação e desenvolvimento tecnológico
